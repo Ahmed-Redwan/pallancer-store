@@ -35,6 +35,11 @@ Route::prefix('admin/categories')->as('admin.categories.')->group(function(){
     Route::put('/{id}', [CategoryController::class, 'update'])->name('update');
     Route::delete('/{id}', [CategoryController::class, 'destroy'])->name('destroy');
 
+
+
+
+
+    
 });
 
 // Route::resource('admin/categories', CategoryController::class);
